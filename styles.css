@@ -1,0 +1,130 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    margin-left: 85px;
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-right: 20px;
+}
+
+.nav-profile img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.container h1, .container h2 {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+.container .lead, .card-text {
+    color: #b0bec5;
+}
+
+.app-preview, .card-img {
+    max-width: 50%;
+    height: auto;
+}
+
+.gambar2 {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%; /* Pastikan ini mencakup seluruh tinggi elemen orang tua */
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  footer h5 {
+    color: #00bcd4;
+    margin-bottom: 20px;
+  }
+  
+  footer p, footer a {
+    color: #b0bec5;
+  }
+  
+  footer a:hover {
+    color: #00bcd4;
+  }
+  
+  footer .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #00bcd4;
+  }
+  
+  footer .social-icons i:hover {
+    color: #ffffff;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+  }
+  
+
+.card {
+    border: none;
+    border-radius: 15px; /* Tambahkan ini untuk memberi border radius */
+}
+
+.card img {
+    border-radius: 15px; /* Tambahkan ini jika ingin gambar juga memiliki border radius */
+}
+
+/* Aturan tambahan untuk section 1 */
+.section-1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.section-1-wrapper {
+    display: flex;
+    justify-content: flex-start; /* Menyesuaikan elemen ke kiri */
+    align-items: center; /* Menyesuaikan elemen ke tengah vertikal */
+    min-height: 100vh; /* Menyesuaikan ketinggian minimum agar elemen berada di tengah vertikal */
+  }
+  
+  .section-1-content {
+    max-width: 50%; /* Sesuaikan lebar konten jika diperlukan */
+    text-align: left; /* Sesuaikan teks agar rata kiri */
+  }
+  
